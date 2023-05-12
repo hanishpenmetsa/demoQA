@@ -32,6 +32,7 @@ public class StepDefinitions extends DriverFactory{
 	public void user_will_be_redirected_to_practice_form_page() {
 
 		landingPage.enterFirstName();
+		System.out.println("redirected");
 	}
 	
 }
